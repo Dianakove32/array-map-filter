@@ -11,7 +11,7 @@ function you'll give as a parameter to filter. You will probably need ONE of the
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 Sample names array, i.e. INPUT:
-  [
+ let obj=[
     'Bran Stark',
     'Cersei Lannister',
     'Sandor Clegane',
@@ -26,6 +26,10 @@ Expected OUTPUT for this sample:
 */
 
 function keepStarks(names) {
+let a= names.filter(name => name.endsWith('Stark') )
+  console.log(a)
+return a
+
 }
 
 // DON'T TOUCH THIS!

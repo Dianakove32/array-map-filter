@@ -32,8 +32,15 @@ Expected OUTPUT for these sample arguments:
   ]
 */
 
+
+
 function filterOnPrice(products, maxPrice) {
+ let    a= products.filter(item => item.price <= maxPrice)
+ console.log(a)
+  return a
 }
+
+
 
 // DON'T TOUCH THIS!
 module.exports = filterOnPrice;
